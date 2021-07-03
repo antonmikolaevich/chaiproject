@@ -1,0 +1,29 @@
+{
+  "name": "webdriver6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/register": "^7.13.16",
+    "@wdio/allure-reporter": "^7.7.0",
+    "@wdio/cli": "^7.7.2",
+    "@wdio/local-runner": "^7.7.2",
+    "@wdio/mocha-framework": "^7.7.2",
+    "@wdio/spec-reporter": "^7.7.0",
+    "chai": "^4.3.4",
+    "chromedriver": "^90.0.1",
+    "wdio-chromedriver-service": "^7.1.0",
+    "wdio-mochawesome-reporter": "^4.0.0"
+  },
+  "dependencies": {
+    "mocha": "^9.0.2"
+  }
+}

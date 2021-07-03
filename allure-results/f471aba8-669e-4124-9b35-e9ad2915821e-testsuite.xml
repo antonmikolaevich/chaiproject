@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625320697152' stop='1625320697169'>
+    <name>Launch Google Chrome Browser</name>
+    <title>Launch Google Chrome Browser</title>
+    <test-cases>
+        <test-case start='1625320697153' status='passed' stop='1625320697167'>
+            <name>Laucnching Google Chrome Browser</name>
+            <title>Laucnching Google Chrome Browser</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps>
+                <step start='1625320697157' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='119dead0-f0da-474a-afda-1b51202f1414-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622992311573' stop='1622992311583'>
+    <name>Mathematical Operations - Test Suite</name>
+    <title>Mathematical Operations - Test Suite</title>
+    <test-cases>
+        <test-case start='1622992311574' status='pending' stop='1622992311575'>
+            <name>Addition of two numbers</name>
+            <title>Addition of two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622992311577' status='passed' stop='1622992311580'>
+            <name>Subtraction of two numbers</name>
+            <title>Subtraction of two numbers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1622992311580' status='passed' stop='1622992311581'>
+            <name>Multiplication of two numbers</name>
+            <title>Multiplication of two numbers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1622992311581' status='passed' stop='1622992311582'>
+            <name>Division of two numbers</name>
+            <title>Division of two numbers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

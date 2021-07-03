@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625320297479' stop='1625320297500'>
+    <name>Mathematical Operations - Test Suite</name>
+    <title>Mathematical Operations - Test Suite</title>
+    <test-cases>
+        <test-case start='1625320297480' status='broken' stop='1625320297496'>
+            <name>Addition of two numbers</name>
+            <title>Addition of two numbers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps>
+                <step start='1625320297492' status='broken' stop='1625320297496'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Callback must be a function. Received undefined</message>
+                <stack-trace>TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined
+                    at setTimeout (timers.js:134:3)
+                    at Context.&lt;anonymous> (D:\WebDriver6\tests\/testMath.js:23:9)
+                    at Context.executeAsync (D:\WebDriver6\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (D:\WebDriver6\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625320297497' status='passed' stop='1625320297498'>
+            <name>Subtraction of two numbers</name>
+            <title>Subtraction of two numbers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625320297498' status='passed' stop='1625320297499'>
+            <name>Multiplication of two numbers</name>
+            <title>Multiplication of two numbers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625320297499' status='passed' stop='1625320297499'>
+            <name>Division of two numbers</name>
+            <title>Division of two numbers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
